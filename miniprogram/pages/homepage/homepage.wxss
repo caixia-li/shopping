@@ -1,0 +1,24 @@
+.nav{
+  display: flex;
+  height: 60rpx;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  color: #777777;
+}
+
+.nav-item{
+  padding: 0rpx 10rpx;
+  border-radius: 15rpx;
+}
+.nav-item-active{
+  color: #F72A1A;
+}
+
+.empty{
+  height: 300rpx;
+  line-height: 300rpx;
+  width: 100%;
+  text-align: center;
+  color: #777777;
+}

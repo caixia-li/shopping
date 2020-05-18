@@ -1,0 +1,84 @@
+<view class="profile">
+  <i class="iconfont icon-shezhi"></i>
+  <view class="profile-box">
+    <view class="avatar">
+      <open-data type="userAvatarUrl" class="avatar"></open-data>
+    </view>
+    <view class="nickname">
+      <open-data type="userNickName"></open-data>
+    </view>
+  </view>
+</view>
+<view class="top-list">
+  <view class="list">
+    <text>我的订单</text>
+    <view>
+      <text>全部订单</text>
+      <i class="iconfont icon-tiaozhuan"></i>
+    </view>
+  </view>
+  <view class="list" style="border-bottom: 1px solid #ffffff;">
+    <view>
+      <view class="top-box">
+        <i class="iconfont  icon-qianbao"></i>
+      </view>
+      <view>
+        <text>待付款</text>
+      </view>
+    </view>
+    <view>
+      <view class="top-box">
+        <i class="iconfont  icon-qiache"></i>
+      </view>
+      <view>
+        <text>待收货</text>
+      </view>
+    </view>
+    <view>
+      <view class="top-box">
+        <i class="iconfont  icon-htmal5icon07"></i>
+      </view>
+      <view>
+        <text>已完成</text>
+      </view>
+    </view>
+    <view>
+      <view class="top-box">
+        <i class="iconfont  icon-tuikuan"></i>
+      </view>
+      <view>
+        <text>退款/售后</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="bottom-list">
+  <view class="list">
+    <text>我的金币</text>
+    <view>
+      <text>0</text>
+      <i class="iconfont icon-tiaozhuan"></i>
+    </view>
+  </view>
+  <view class="list">
+    <text>我的地址</text>
+    <view>
+      <i class="iconfont icon-tiaozhuan"></i>
+    </view>
+  </view>
+  <button class="list" bindtap="makePhoneCall">
+    <text>在线客服</text>
+    <view>
+      <text>4008210369</text>
+      <i class="iconfont icon-tiaozhuan"></i>
+    </view>
+  </button>
+  <view class="list">
+    <text>系统设置</text>
+    <view>
+      <i class="iconfont icon-tiaozhuan"></i>
+    </view>
+  </view>
+</view>

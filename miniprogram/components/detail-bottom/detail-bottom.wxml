@@ -1,0 +1,5 @@
+<view class="bottom-box">
+  <i class="iconfont icon-duihua"></i>
+  <button class="btn gary" open-type="getUserInfo" bindgetuserinfo="onJoinCart">加入购物车</button>
+  <button class="btn red">立即购买</button>
+</view>

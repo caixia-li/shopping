@@ -1,0 +1,15 @@
+<view>
+  <view class="btns">
+    <block wx:for="{{tabText}}" wx:key="index">
+      <button data-index="{{index}}" class="btn {{index==chooseIndex?'btn-active':''}}" bindtap="onChooseIndex">{{item}}</button>
+    </block>
+  </view>
+</view>
+
+<view wx:if="{{chooseIndex==0}}">
+  <block wx:for="{{imgs}}" wx:key="index">
+    <view class="img-item">
+      <image src="{{item}}"></image>
+    </view>
+  </block>
+</view>

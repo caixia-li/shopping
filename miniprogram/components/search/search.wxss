@@ -1,0 +1,28 @@
+.search-box{
+  display: flex;
+  height: 80rpx;
+  width: 650rpx;
+  margin: 10px auto;
+  align-items: center;
+  border: 1px solid #aaaaaa;
+  background-color: #f7f7f7;
+}
+.ipt{
+  height: 100%;
+  flex: 1;
+  padding: 5rpx 20rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+.btn {
+  height: 100%;
+  background: #aaaaaa;
+  color: #fff;
+  font-size: 32rpx;
+  margin-right: 0;
+  border-radius: 0px;
+}
+button::after{
+  border-radius: 0px;
+  border: none;
+}

@@ -1,0 +1,52 @@
+page{
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.nav{
+  width: 150rpx;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  text-align: center;
+}
+
+.nav-item{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.nav-item-active{
+  background-color: #f1f1f1;
+  color: #F72A1A;
+  border-left: 1px solid #F72A1A;
+}
+
+.goodList{
+  margin-left: 150rpx;
+  width: 600rpx;
+}
+
+.list-type{
+  width: 90%;
+  margin: 0 auto;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.list-detail{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.shop-img{
+  width: 180rpx;
+  height: 180rpx;
+}

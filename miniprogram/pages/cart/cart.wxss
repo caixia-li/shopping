@@ -1,0 +1,29 @@
+.empty-cart{
+  width: 100%;
+  height: 400rpx;
+  background-color: #fbfbfb;
+  text-align: center;
+  padding-top: 60rpx;
+}
+.empty-cart i{
+  display: block;
+  height: 180rpx;
+  width: 200rpx;
+  margin: 0 auto;
+  font-size: 160rpx;
+  color: #ccc;
+}
+.empty-cart text{
+  font-size: 30rpx;
+  color: #ccc;
+}
+.empty-cart view{
+  width: 300rpx;
+  margin: 10rpx auto;
+  padding: 10rpx 0;
+  border: 1px solid #b1aaaa;
+  background-color: #c9c4c4;
+  color:#F72A1A;
+  font-size: 30rpx; 
+  border-radius: 5rpx;
+}

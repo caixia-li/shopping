@@ -1,0 +1,37 @@
+
+.cart-bottom {
+  position: fixed;
+  bottom: 0rpx;
+  height: 110rpx;
+  width: 100%;
+  display: flex;
+  background-color: f0f0f0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-num{
+  margin-left: 20rpx;
+}
+
+.cart-submit {
+  min-width: 250rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-total {
+  color: #f72a1a;
+}
+
+.btn {
+  height: 65rpx;
+  padding: 0rpx 30rpx;
+  background-color: #f72a1a;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 2;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}

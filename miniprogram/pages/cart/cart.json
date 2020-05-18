@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cart":"/components/cart-list/cart",
+    "toTop": "/components/toTop/toTop",
+    "cart-bottom":"/components/cart-bottom/cart-bottom"
+  },
+  "navigationBarTitleText": "购物车"
+}

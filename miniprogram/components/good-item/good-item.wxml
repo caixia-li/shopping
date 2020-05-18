@@ -1,0 +1,18 @@
+<view>
+  <block wx:for="{{goodList}}" wx:key="_id">
+    <view class="item-box" bindtap="goShopDetail" data-_id="{{item._id}}">
+      <image src="{{item.img_list_url}}" class="item-img"></image>
+      <view class="item-detail">
+        <view class="item-title">
+          <text>【{{item.type_one}}】</text>
+          <text>{{item.title}}</text>
+        </view>
+        <view class="item-nice">已售{{item.nice}}件</view>
+        <view class="item-price">
+          <text>￥{{item.price}}</text>
+          <button>立即购买</button>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

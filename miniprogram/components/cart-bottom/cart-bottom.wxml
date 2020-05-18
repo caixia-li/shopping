@@ -1,0 +1,7 @@
+<view class="cart-bottom">
+  <view class="cart-num">已选{{number}}</view>
+  <view class="cart-submit">
+    <text class="cart-total">￥{{total}}</text>
+    <button class="btn">下单</button>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view>
+  <swiper indicator-dots="true" indicator-color="#ccc" indicator-active-color="#fff" autoplay="true" style="height:313rpx">
+    <block wx:for="{{swiperList}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" mode="widthFix" style="width:100%;"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

@@ -1,0 +1,17 @@
+.detail {
+  width: 100%;
+  padding: 20rpx;
+  text-align: left;
+}
+
+.detail-nice {
+  padding: 5rpx 16rpx;
+  color: gray;
+  font-size: 30rpx;
+}
+
+.detail-price {
+  padding: 5rpx 16rpx;
+  color: #f72a1a;
+  font-size: 32rpx;
+}

@@ -1,0 +1,19 @@
+<search total="{{total}}" bind:onSearch="onSearch"></search>
+
+<view class="nav">
+  <block wx:for="{{listType}}" wx:key="index" wx:index="index">
+    <view bindtap="onClassify" data-index="{{index}}" data-item="{{item}}" class="nav-item {{ index==chooseIndex?'nav-item-active':'' }}">{{item}}</view>
+  </block>
+</view>
+
+<c-swiper swiperList="{{swiperList}}"></c-swiper>
+
+<view wx:if="{{goodList.length != 0}}">
+  <good-item goodList="{{goodList}}"></good-item>
+</view>
+
+<view class="empty" wx:else>
+该商品还在路上
+</view>
+
+<toTop toTopValue="{{toTopValue}}" bind:onToTop="onToTop"></toTop>

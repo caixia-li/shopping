@@ -1,0 +1,15 @@
+<view>
+  <image src="{{shopDetail.img_url}}"></image>
+  <view class="detail">
+    <view class="detail-title">
+      <text>【{{shopDetail.type_two}}】</text>
+      <text>{{shopDetail.title}}</text>
+    </view>
+    <view class="detail-nice">已售{{shopDetail.nice}}件</view>
+    <view class="detail-price">￥{{shopDetail.price}}</view>
+  </view>
+</view>
+
+<detail-tab detail="{{shopDetail}}"></detail-tab>
+
+<detail-bottom iconfont="iconfont" icon-duihua="icon-duihua" bind:onJoinCart="onJoinCart"></detail-bottom>

@@ -1,0 +1,21 @@
+<view class="cart">
+  <checkbox-group bindchange="checkboxChange">
+    <block wx:for="{{cartList}}" wx:key="_id">
+      <view class="cart-item">
+        <view class="cart-check">
+          <checkbox value="{{index}}" color="#f72a1a"></checkbox>
+        </view>
+        <image src="{{item.img_url}}" class="cart-img" bindtap="goDetail" data-_id="{{item._id}}"></image>
+        <view class="cart-detail">
+          <view class="cart-title">{{item.title}}</view>
+          <view class="cart-money">
+            <text class="cart-price">￥{{item.price}}</text>
+            <button bindtap="onReduce" data-_id="{{item._id}}">-</button>
+            <text class="cart-count">{{item.count}}</text>
+            <button bindtap="onAdd" data-_id="{{item._id}}">+</button>
+          </view>
+        </view>
+      </view>
+    </block>
+  </checkbox-group>
+</view>

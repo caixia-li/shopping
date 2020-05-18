@@ -1,0 +1,13 @@
+<view class="empty-cart" hidden="{{cartList.length != 0}}">
+  <i class="iconfont icon-gouwuchekong"></i>
+  <text>购物车空空如也，快来挑选好物呗~</text>
+  <view bindtap="goHomePage">逛逛今日特卖</view>
+</view>
+
+<view hidden="{{cartList.length == 0}}">
+  <cart cartList="{{cartList}}" bind:onReduce="onReduce" bind:onAdd = "onAdd" bind:onCheck="onCheck"></cart>
+</view>
+
+<cart-bottom indexList="{{indexList}}" id="cart-bottom"></cart-bottom>
+
+<toTop toTopValue="{{toTopValue}}" bind:onToTop="onToTop"></toTop>

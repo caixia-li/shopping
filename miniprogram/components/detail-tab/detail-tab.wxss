@@ -1,0 +1,28 @@
+
+.btns{
+  width: 100%;
+  height: 30rpx;
+  display: flex;
+}
+.btn{
+  box-sizing: border-box;
+  width: 250rpx;
+  height: 60rpx;
+  border-radius: 0;
+  background-color: #fff;
+  font-size: 30rpx;
+  line-height: 2.2;
+}
+.btn::after{
+  border-radius: 0;
+}
+
+.btn-active{
+  background-color: #888;
+  color: #fff;
+}
+
+.img-item{
+  margin-top: 20rpx;
+}
+

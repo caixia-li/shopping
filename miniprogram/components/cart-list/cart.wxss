@@ -1,0 +1,68 @@
+page {
+  background-color: #f7f7f7;
+}
+
+.cart-item {
+  width: 100%;
+  height: 200rpx;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+
+.cart-check {
+  width: 100rpx;
+  text-align: center;
+}
+
+checkbox .wx-checkbox-input {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+}
+
+.cart-img {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 5rpx;
+}
+
+.cart-detail {
+  width: 400rpx;
+  padding: 0 10rpx;
+}
+
+.cart-title {
+  height: 70rpx;
+  font-size: 32rpx;
+  vertical-align: top;
+}
+
+.cart-money {
+  height: 70rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cart-price {
+  color: #f72a1a;
+  font-size: 30rpx;
+}
+
+.cart-count {
+  font-size: 30rpx;
+}
+
+button {
+  padding: 5rpx 10rpx;
+  border-radius: 0;
+  line-height: 1;
+  margin: 0;
+}
+
+button::after {
+  border-radius: 0px;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "detail-tab": "/components/detail-tab/detail-tab",
+    "detail-bottom": "/components/detail-bottom/detail-bottom"
+  },
+  "navigationBarTitleText": "商品详情"
+}

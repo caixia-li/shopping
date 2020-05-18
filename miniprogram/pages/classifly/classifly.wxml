@@ -1,0 +1,18 @@
+<view class="nav">
+  <block wx:for="{{listType}}" wx:key="index" wx:index="index">
+    <view bindtap="onClassify" data-index="{{index}}" data-item="{{item}}" class="nav-item {{ index==chooseIndex?'nav-item-active':'' }}">{{item}}</view>
+  </block>
+</view>
+
+<view class="goodList">
+  <block wx:for="{{newGoodList}}" wx:key="index" wx:for-item="sort">
+    <view class="list-type">{{sort.type}}</view>
+    <view class="list-detail">
+      <block wx:for="{{sort.list}}" wx:key="_id" wx:for-item="list">
+        <view bindtap="goShopDetail" data-_id = "{{list._id}}" hidden="{{index>5}}" >
+          <image src="{{list.img_url}}" class="shop-img"></image>
+        </view>
+      </block>
+    </view>
+  </block>
+</view>

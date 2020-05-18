@@ -1,0 +1,18 @@
+@import "/components/toTop/icon.wxss"
+
+.toTop {
+  position: fixed;
+  bottom: 50rpx;
+  right: 50rpx;
+  background-color: rgba(136, 136, 136, 0.493);
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.iconfont{
+  font-size: 60rpx;
+}

@@ -1,0 +1,3 @@
+<view class="toTop" bindtap="onToTop" wx:if="{{isShow}}">
+<i class="iconfont icon-shangjiantouxiangshangxianxing"></i>
+</view>

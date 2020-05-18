@@ -1,0 +1,50 @@
+page{
+  background-color: #f8f8f8;
+}
+.item-box{
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.item-img{
+  height: 360rpx;
+  width: 480rpx;
+}
+.item-detail{
+  width: 100%;
+  padding: 20rpx;
+  text-align: left;
+}
+.item-nice{
+  padding: 5rpx 16rpx;
+  color: gray;
+  font-size: 30rpx;
+}
+.item-price{
+  position: relative;
+  height: 25rpx;
+  padding: 5rpx 16rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-price text{
+  color: #F72A1A;
+  font-size: 32rpx;
+}
+
+.item-box button{
+  height: 50rpx;
+  background-color: #F72A1A;
+  color: #fff;
+  padding: 5rpx 10rpx;
+  line-height: 1.5;
+  font-size: 30rpx;
+  border-radius: 5rpx;
+  margin-right: 36rpx;
+}
+.item-box button::after{
+  border-radius: 0;
+}

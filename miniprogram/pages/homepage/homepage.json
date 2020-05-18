@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search":"/components/search/search",
+    "c-swiper":"/components/swiper/swiper",
+    "good-item":"/components/good-item/good-item",
+    "toTop":"/components/toTop/toTop"
+  },
+  "enablePullDownRefresh": true
+}
